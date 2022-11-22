@@ -18,7 +18,7 @@ const customerReducer = (state = iniData, action) => {
         case GET_ALL_CUSTOMER:
             return {
                 ...state,
-                customer: action.payload.slice((state.currentPage_customer - 1) * limit, state.currentPage_customer * limit),
+                customer: action.payload,
                 noPage_customer: Math.ceil(action.payload.length / limit),
             }
         default:

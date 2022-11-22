@@ -1,0 +1,2 @@
+export const PAGINATION = "PAGINATION"
+export const GET_ALL_PRODUCT_TYPE = "GET_ALL_PRODUCT_TYPE"
